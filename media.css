@@ -1,0 +1,285 @@
+@media screen and (max-width: 1024px) {
+    .content{
+        font-size: 21px;
+    }
+    .porsche{
+        transform: translateX(330px);
+    }
+    .main{
+        height: 240px;
+    }
+    .wrapper{
+        height: 1100px;
+        font-size: 12px;
+    }
+    .h3{
+        margin-top: 50%;
+    }
+    .btn__child1,
+    .btn__child2{
+        width: 100px;
+        height: 35px;
+    }
+    .btn__child1{
+        left: 20px;
+    }
+    .btn__child2{
+        left: 130px;
+    }
+    .h2{
+        text-align: center;
+    }
+    .discover p{
+        margin-top: 15%;
+    }
+    .class__2__footer__child h3{
+        margin-top: 30%;
+    }
+    .footer__screenshoot{
+        height: 300px;
+    }
+    .footer__screenshoot img{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .video__banner{
+        height: 450px;
+    }
+    .content{
+        width: 495px;
+        font-size: 20px;
+    }
+    .porsche{
+        transform: translateX(220px);
+    }
+    .main{
+        height: 200px;
+        font-size: 12px;
+    }
+    .wrapper{
+        height: 950px;
+        padding: 0 23%;
+
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6{
+        width: 100%;
+    }
+    .h3{
+        margin-top: 45%;
+    }
+    .container{
+        transform: translateY(900px);
+        font-size: 10px;
+    }
+    .container__child{
+        padding: 6% 4%;
+    }
+    .body__boxs{
+        transform: translateY(900px);
+    }
+    .online__shop{
+        transform: translateY(800px);
+        height: 280px;  
+    }
+    .online__shop__childs h3{
+        font-size: 13px;
+    }
+    .online__shop__childs p{
+        font-size: 10px;
+    }
+    .h2{
+        text-align: center;
+        transform: translateY(800px);
+    }
+    .social{
+        flex-wrap: wrap;
+        transform: translateY(800px);
+    }
+    .social__child{
+        width: 100%;
+        height: 600px;
+    }
+    .hh1{
+        transform: translateY(750px);
+    }
+    .discover{
+        transform: translateY(750px);
+        display: block;
+    }
+    .discover__child{
+        width: 70%;
+        margin: 15px auto;
+        padding-top: 27%;
+        font-size: 20px;
+    }
+    .class__2__footer__child h3{
+        margin-top: 65%;
+    }
+    .footer,
+    .footer__screenshoot{
+        transform: translateY(750px);
+    }
+    .icons__parent{
+        width: 180px;
+        height: 90px;
+    }
+}
+@media screen and (max-width: 426px) {
+    body{
+        padding-left: 25px;
+    }
+    .video__banner{
+        width: 100%;
+        height: 250px;
+    }
+    .porsche{
+        transform: translateX(0);
+        position: absolute;
+        left: 170px;
+    }
+    .content{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 60px;
+    }
+    .content button{
+        width: 100px;
+        height: 20px;
+        font-size: 7px;
+    }
+    .main{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .main__child1,
+    .main__child2,
+    .main__child3{
+        width: 70%;
+        height: 30%;
+        margin: auto;
+    }
+    .text{
+        margin-top: 45%;
+    }
+    .wrapper__child{
+        height: 22%;
+    }
+    .h3{
+        font-size: 8px;
+        margin-top: 65%;
+    }
+    .btn__child1,
+    .btn__child2{
+        width: 50px;
+        height: 20px;
+        font-size: 6px;
+    }
+    .btn__child1{
+        left: 10px;
+    }
+    .btn__child2{
+        left: 70px;
+    }
+    .container{
+        transform: translateY(410px);
+        display: block;
+    }
+    .container__child,
+    .container__child__border{
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .container__child h2,
+    .container__child p,
+    .btn{
+        transform: translateY(-50px);
+    }
+    .btn{
+        width: 60px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .body__boxs{
+        transform: translateY(600px);
+        display: block;
+    }
+    .body__boxs__child{
+        width: 100%;
+        height: 180px;
+    }
+    .body__boxs__child h2{
+        font-size: 15px;
+    }
+    .body__boxs__child p{
+        font-size: 10px;
+    }
+    .input{
+        width: 180px;
+        height: 30px;
+    }
+    .hhh{
+        transform: translateY(630px);
+        font-size: 20px;
+    }
+    .online__shop{
+        display: block;
+        transform: translateY(600px);
+    }
+    .online__shop__childs{
+        width: 50%;
+        height: 250px;
+        margin: auto;
+    }
+    .online__shop__childs img{
+        height: 140px;
+    }
+    .online__shop__childs h3,
+    .online__shop__childs p{
+        padding: 2%;
+    }
+    .hhhhhh2{
+        transform: translateY(1300px);
+    }
+    .h2{
+        transform: translateY(1330px);
+        font-size: 20px;
+    }
+    .social{
+        transform: translateY(1340px);
+    }
+    .hh1{
+        text-align: center;
+        transform: translateY(1300px);
+    }
+    .discover{
+        transform: translateY(1300px);
+    }
+    .discover__child{
+        height: 200px;
+        padding-top: 32%;
+        font-size: 18px;
+    }
+    .footer,
+    .footer__screenshoot{
+        font-size: 8px;
+        transform: translateY(1300px);
+    }
+    .subscribe{
+        height: 40px;
+    }
+    .class__2__footer__child h3{
+        margin-top: 73%;
+    }
+    .icons__parent{
+        width: 100px;
+        height: 50px;
+    }
+}

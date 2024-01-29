@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.video__banner{
+    width: 100%;
+    height: 550px;
+    background: url("./images/porsche9.avif") no-repeat center/cover;
+    color: #fff;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 1% 4%;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+}
+.menu__child{
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 5px;
+}
+.porsche{
+    transform: translateX(430px);
+}
+.content{
+    width: 595px;
+    font-size: 30px;
+    padding: 0 10%;
+    margin-top: 100px;
+}
+.content button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
+    background: none;
+    color: #fff;
+}
+.main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    padding: 0 10%;
+    margin-top: 50px;
+}
+.main__child1,
+.main__child2,
+.main__child3{
+    width: 400px;
+    height: 100%;
+    border-radius: 15px;
+    color: #fff;
+    transition: 1s;
+}
+.main__child1:hover,
+.main__child2:hover,
+.main__child3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.main__child1{
+    background: url("./images/porsche1.avif") no-repeat center/cover;
+}
+.main__child2{
+    background: url("./images/porsche2.avif") no-repeat center/cover;
+}
+.main__child3{
+    background: url("./images/porsche3.avif") no-repeat center/cover;
+}
+.text{
+    margin: 65% 5%;
+}
+.h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+}
+.wrapper__child{
+    width: calc(50% - 10px);
+    height: 30%;
+    border-radius: 10px;
+    transition: 1.5s;
+    position: relative;
+}
+.wrapper__child:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.img1{
+    background: url("./images/porsche4.avif") no-repeat center/cover;
+}
+.img2{
+    background: url("./images/porsche5.avif") no-repeat center/cover;
+}
+.img3{
+    background: url("./images/porsche6.avif") no-repeat center/cover;
+}
+.img4{
+    background: url("./images/porsche7.avif") no-repeat center/cover;
+}
+.img5{
+    background: url("./images/porsche8.avif") no-repeat center/cover;
+}
+.img6{
+    background: url("./images/porsche9.avif") no-repeat center/cover;
+}
+.h3{
+    color: #fff;
+    margin: 55% 5%;
+}
+.btn__child1{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 2;
+}
+.btn__child2{
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: none;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 140px;
+    z-index: 2;
+}
+.container{
+    width: 100%;
+    height: 320px;
+    padding: 1% 10%;
+    display: flex;
+}
+.container__child,
+.container__child__border{
+    width: 50%;
+    height: 100%;
+}
+.container__child{
+    border-radius: 15px 0 0 15px;
+    padding: 0 4%;
+    background: black;
+    color: #fff;
+}
+.container__child h2{
+    text-align: center;
+    margin-top: 90px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #fff;
+    margin-top: 10px;
+}
+.container__child__border{
+    border-radius: 0 15px 15px 0;
+    background: url("./images/body.avif") no-repeat center/cover;
+}
+.body__boxs{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    padding: 2% 5%;
+}
+.body__boxs__child{
+    width: 50%;
+    height: 100%;
+    padding: 8% 3%;
+}
+.text__p,
+.input{
+    margin-top: 5px;
+}
+.input{
+    width: 250px;
+    height: 40px;
+    padding: 3%;
+}
+.body__boxs__child__img{
+    background: url("./images/body2.avif") no-repeat center/cover;
+}
+.hhh{
+    text-align: center;
+}
+.online__shop{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    gap: 20px;
+    padding: 0 5%;
+    margin-top: 50px;
+}
+.online__shop__childs{
+    width: 25%;
+    height: 100%;
+    transition: 1s;
+}
+.online__shop__childs:hover{
+    background: #dad9d9;
+    cursor: pointer;
+}
+.online__shop__childs img{
+    width: 100%;
+    height: 50%;
+}
+.online__shop__childs h3,
+.online__shop__childs p{
+    padding: 4%;
+}
+.h2{
+    text-align: center;
+}
+.social{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 5% 13%;
+}
+.social__child{
+    width: 33%;
+    height: 465px;
+}
+.social__child__child{
+    width: 100%;
+    height: 60%;
+}
+.class__2__img1{
+    background: url("./images/v__img9.jpg") no-repeat center/cover;
+}
+.social__child__child__1__parent{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.class__2{
+    margin-top: 0;
+}
+.class__2__social__child__child{
+    margin-top: 15px;
+    background: url("./images/v__img.jpg") no-repeat center/cover;
+}
+.class__2__img2{
+    background: url("./images/ft__img2.avif") no-repeat center/cover;
+}
+.social__child__child__1{
+    width: 50%;
+    height: 100%;
+}
+.class__2__small__img1{
+    background: url("./images/v__img7.avif") no-repeat center/cover;
+}
+.class__2__small__img2{
+    background: url("./images/v__img3.jpg") no-repeat center/cover;
+}
+.class__2__small__img3{
+    background: url("./images/v__img4.jpg") no-repeat center/cover;
+}
+.class__2__small__img4{
+    background: url("./images/v__img5.jpg") no-repeat center/cover;
+}
+.class__2__small__img5{
+    background: url("./images/v__img2.jpg") no-repeat center/cover;
+}
+.class__2__small__img6{
+    background: url("./images/v__img6.jpg") no-repeat center/cover;
+}
+.hh1{
+    text-align: center;
+}
+.discover{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 0 10%;
+    margin-top: 20px;
+}
+.discover__child{
+    width: 33%;
+    height: 300px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 25%;
+}
+.discover__child__img1{
+    background: url("./images/ft__img2.avif") no-repeat center/cover;
+}
+.discover__child__img2{
+    background: url("./images/ft__img3.avif") no-repeat center/cover;
+}
+.discover__child__img3{
+    background: url("./images/ft__img.avif") no-repeat center/cover;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background: #0E0E12;
+    color: #fff;
+    margin-top: 60px;
+    padding: 3%;
+    display: flex;
+    gap: 20px;
+}
+.footer__child{
+    width: 30%;
+    height: 100%;
+}
+.screenshoot{
+    margin-top: 20%;
+    font-size: 20px;
+}
+.footer__child h3{
+    margin-top: 10px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url("./icons/US.svg");
+}
+.circle h4{
+    width: 280px;
+    padding: 9px 50px;
+}
+.circle h5{
+    padding: 0 240px;
+    margin-top: -29px;
+}
+.subscribe{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    margin-top: 10px;
+}
+.class__2__footer__child h3{
+    margin-top: 24%;
+}
+.icons__parent{
+    width: 270px;
+    height: 140px;
+    background: url("icons/screenshoot.jpg") no-repeat center/cover;
+}
+.footer__screenshoot{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: #0E0E12;
+    overflow: hidden;
+}
+.footer__screenshoot img{
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+}
